@@ -7,7 +7,7 @@ Ce projet contient un mini-projet Three.js dans le dossier `threejs`.
 
 1. **Cloner le dépôt** :
 ```bash
-git clone https://github.com/ton-utilisateur/Global_form.git
+git clone https://github.com/arobaseSuulei/Globe_Form/
 
 cd Global_form/threejs
 
