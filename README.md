@@ -15,9 +15,9 @@ Cloner le projet :
 ```bash
 git clone https://github.com/arobaseSuulei/Globe_Form.git
 cd Globe_Form
-Installer les dépendances :
+
 npm install
-Lancer le serveur local :
+
 npm run dev
 ```
 Ouvrir l’URL affichée par Vite (ex: http://localhost:5173).
