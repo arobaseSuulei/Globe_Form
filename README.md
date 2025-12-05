@@ -1,17 +1,23 @@
+# Globe Form
 
-# Global_form - Mini projet Three.js, Notre belle planète
+Un projet Three.js affichant une Terre interactive avec contrôle orbital et clic sur la planète.
 
-Ce projet contient un mini-projet Three.js dans le dossier `threejs`.
+## Aperçu
 
-## Lancer le projet
+- Planète 3D avec textures réalistes
+- Contrôle de la caméra avec la souris (OrbitControls)
+- Cliquer sur la Terre redirige vers un site externe
 
-1. **Cloner le dépôt** :
+## Installation
+
+Cloner le projet :
+
 ```bash
 git clone https://github.com/arobaseSuulei/Globe_Form.git
-
-cd Global_form/threejs
-
+cd Globe_Form
+Installer les dépendances :
+npm install
+Lancer le serveur local :
+npm run dev
 ```
-
-## Lancer le index.html
-
+Ouvrir l’URL affichée par Vite (ex: http://localhost:5173).
