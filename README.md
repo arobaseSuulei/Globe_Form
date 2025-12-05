@@ -10,4 +10,4 @@ Ce projet contient un mini-projet Three.js dans le dossier `threejs`.
 git clone https://github.com/ton-utilisateur/Global_form.git
 
 cd Global_form/threejs
-Ouvrir le fichier index.html :
+
