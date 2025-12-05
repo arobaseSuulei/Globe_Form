@@ -13,6 +13,25 @@ export const supabase = createClient(
   supabaseAnonKey || 'your-anon-key'
 )
 
+// Fonction pour sauvegarder un formulaire
+export async function saveFormSubmission(formData) {
+  try {
+    const { data, error } = await supabase
+      .from('form_submissions')
+      .insert([
+        {
+          type: formData.type,
+          data: formData,
+          created_at: new Date().toISOString()
+        }
+      ])
+      .select()
 
-
+    if (error) throw error
+    return { data, error: null }
+  } catch (error) {
+    console.error('Erreur lors de la sauvegarde:', error)
+    return { data: null, error }
+  }
+}
 

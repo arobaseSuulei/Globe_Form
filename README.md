@@ -1,54 +1,16 @@
-# Global Form
+# React + Vite
 
-Projet React initialisé avec Vite, React Router, Tailwind CSS (v2.x) et Supabase.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Technologies utilisées
+Currently, two official plugins are available:
 
-- **Vite** - Build tool et serveur de développement
-- **React** - Bibliothèque UI
-- **React Router** - Routage côté client
-- **Tailwind CSS v2.2.19** - Framework CSS utilitaire (version 2021)
-- **Supabase** - Backend as a Service (BaaS)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Installation
+## React Compiler
 
-```bash
-npm install
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Développement
+## Expanding the ESLint configuration
 
-```bash
-npm run dev
-```
-
-## Configuration Supabase
-
-1. Créez un fichier `.env` à la racine du projet
-2. Ajoutez vos clés Supabase :
-
-```
-VITE_SUPABASE_URL=votre-url-supabase
-VITE_SUPABASE_ANON_KEY=votre-clé-anon
-```
-
-3. Importez le client Supabase dans vos composants :
-
-```javascript
-import { supabase } from './lib/supabase'
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-## Preview
-
-```bash
-npm run preview
-```
-# La_GlobeForm
-# Globe_Form
-# GlobeForm
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
