@@ -8,6 +8,6 @@ Ce projet contient un mini-projet Three.js dans le dossier `threejs`.
 1. **Cloner le dépôt** :
 ```bash
 git clone https://github.com/ton-utilisateur/Global_form.git
-Aller dans le dossier Three.js :
+
 cd Global_form/threejs
 Ouvrir le fichier index.html :
