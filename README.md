@@ -11,3 +11,7 @@ git clone https://github.com/arobaseSuulei/Globe_Form.git
 
 cd Global_form/threejs
 
+```
+
+## Lancer le index.html
+
